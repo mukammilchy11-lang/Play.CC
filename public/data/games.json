@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-09-18",
+  "description": "Unblocked Games Hub - structured game specifications and sandboxed iframe source definitions",
+  "games": [
+    {
+      "id": "snake-retro",
+      "title": "Retro Snake 2000",
+      "category": "Arcade",
+      "description": "Classic retro snake with smooth responsive controls, golden apples, and high-score tracking.",
+      "instructions": "Guide the hungry snake to eat glowing apples. Avoid running into the perimeter walls or your own tail!",
+      "controls": [
+        { "key": "Arrow Keys / WASD", "action": "Direct Snake" },
+        { "key": "Space", "action": "Pause / Resume" },
+        { "key": "R", "action": "Restart Game" }
+      ],
+      "tags": ["classic", "retro", "arcade", "snake"],
+      "color": "#10b981",
+      "iconName": "Gamepad2",
+      "iframeType": "srcdoc"
+    },
+    {
+      "id": "neon-pong",
+      "title": "Neon Pong Rivals",
+      "category": "Sports",
+      "description": "Fast-paced table tennis with responsive physics, computer AI rival or local 2-player mode.",
+      "instructions": "Deflect the glowing neon ball past your opponent. The first player to reach 7 points wins the championship!",
+      "controls": [
+        { "key": "W / S or Arrow Keys", "action": "Move Paddle Up & Down" },
+        { "key": "Space", "action": "Launch Ball / Pause" },
+        { "key": "R", "action": "Reset Match" }
+      ],
+      "tags": ["retro", "sports", "pong", "arcade", "2-player"],
+      "color": "#06b6d4",
+      "iconName": "Activity",
+      "iframeType": "srcdoc"
+    },
+    {
+      "id": "block-breaker",
+      "title": "Block Breaker DX",
+      "category": "Arcade",
+      "description": "Vibrant breakout game with power-ups, multiple tiers of brick hardness, and combo scoring.",
+      "instructions": "Bounce the steel ball to shatter every brick. Catch power capsules for extended paddles and multiballs!",
+      "controls": [
+        { "key": "Mouse / Arrow Keys / A & D", "action": "Move Paddle" },
+        { "key": "Space / Click", "action": "Launch Ball" },
+        { "key": "P", "action": "Pause" }
+      ],
+      "tags": ["breakout", "arcade", "blocks", "retro"],
+      "color": "#8b5cf6",
+      "iconName": "LayoutGrid",
+      "iframeType": "srcdoc"
+    },
+    {
+      "id": "space-defender",
+      "title": "Space Defender: Orbital War",
+      "category": "Action",
+      "description": "Defend planet Earth from descending alien invasion fleets with rapid-fire lasers and energy shields.",
+      "instructions": "Maneuver your starship across the lower deck and blast incoming alien armadas before they breach orbit!",
+      "controls": [
+        { "key": "Left / Right or A / D", "action": "Move Starfighter" },
+        { "key": "Spacebar", "action": "Fire Plasma Laser" },
+        { "key": "P", "action": "Pause Mission" }
+      ],
+      "tags": ["space", "shooter", "retro", "invaders", "arcade"],
+      "color": "#ec4899",
+      "iconName": "Rocket",
+      "iframeType": "srcdoc"
+    },
+    {
+      "id": "flappy-sky",
+      "title": "Flappy Helicopter",
+      "category": "Arcade",
+      "description": "Tap or hold to guide your agile chopper through hazardous neon pillars and conquer the leaderboards.",
+      "instructions": "Press Space, click, or tap to elevate altitude. Thread through narrow pipes without clipping edges!",
+      "controls": [
+        { "key": "Space / Click / Touch", "action": "Propel Upward" },
+        { "key": "R", "action": "Retry Run" }
+      ],
+      "tags": ["flappy", "arcade", "fly", "reflex"],
+      "color": "#f59e0b",
+      "iconName": "Plane",
+      "iframeType": "srcdoc"
+    },
+    {
+      "id": "2048-neon",
+      "title": "2048 Neon Pulse",
+      "category": "Puzzle",
+      "description": "Slide numbers together to combine twin tiles and strive for the elusive 2048 milestone.",
+      "instructions": "Use Arrow Keys or WASD to slide all tiles in one direction. Identical numbers merge into their sum!",
+      "controls": [
+        { "key": "Arrow Keys / WASD", "action": "Slide Grid" },
+        { "key": "R", "action": "New Game" }
+      ],
+      "tags": ["2048", "puzzle", "math", "strategy"],
+      "color": "#eab308",
+      "iconName": "Grid",
+      "iframeType": "srcdoc"
+    },
+    {
+      "id": "minesweeper-retro",
+      "title": "Minesweeper Classic",
+      "category": "Puzzle",
+      "description": "Uncover hidden minefields using deductive logic and numeric proximity clues.",
+      "instructions": "Click tiles to uncover. Right-click or toggle Flag mode to mark suspected mines.",
+      "controls": [
+        { "key": "Left Click", "action": "Uncover Square" },
+        { "key": "Right Click", "action": "Plant Flag" },
+        { "key": "Flag Toggle", "action": "Mobile Flag Mode" }
+      ],
+      "tags": ["minesweeper", "puzzle", "classic", "logic"],
+      "color": "#0284c7",
+      "iconName": "ShieldAlert",
+      "iframeType": "srcdoc"
+    }
+  ]
+}
